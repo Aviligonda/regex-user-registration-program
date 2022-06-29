@@ -15,6 +15,9 @@ public class UserRegistration {
         System.out.println("PhoneNumber :"+phoneNumber);
         boolean passWord = Pattern.matches("[a-z]{8,}", "sreenivasulu");   //  create a password at least 8 character
         System.out.println("PassWord :"+passWord);
+        boolean passWord1 = Pattern.matches("(?=.*?[A-Z])[A-Za-z]{8,}", "sreEniVaSulU"); // add at least one Capital letter
+        System.out.println("PassWord1 :"+passWord1);
+
 
     }
 }
