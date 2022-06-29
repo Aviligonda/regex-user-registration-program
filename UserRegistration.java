@@ -13,6 +13,8 @@ public class UserRegistration {
         System.out.println("Email :"+email);
         boolean phoneNumber = Pattern.matches("[+]91 [6789]\\d{9}", "+91 8919584625");
         System.out.println("PhoneNumber :"+phoneNumber);
+        boolean passWord = Pattern.matches("[a-z]{8,}", "sreenivasulu");   //  create a password at least 8 character
+        System.out.println("PassWord :"+passWord);
 
     }
 }
